@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="InterfaceSegregationPrinciple.GoodDesign.EmailMessage" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAMAAAAAAAAAEAAAAAAAACAAIAAA=</HashCode>
+      <FileName>GoodDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InterfaceSegregationPrinciple.GoodDesign.SMSMessage" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAAACAAIAAA=</HashCode>
+      <FileName>GoodDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InterfaceSegregationPrinciple.GoodDesign.VoiceMessage" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAAAAIAAg=</HashCode>
+      <FileName>GoodDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="InterfaceSegregationPrinciple.GoodDesign.IEmailMessage">
+    <Position X="5.75" Y="4.75" Width="2.25" />
+    <InheritanceLine Type="InterfaceSegregationPrinciple.GoodDesign.ITextMessage" FixedToPoint="true">
+      <Path>
+        <Point X="5.625" Y="4.233" />
+        <Point X="5.625" Y="4.45" />
+        <Point X="6.875" Y="4.45" />
+        <Point X="6.875" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GoodDesign.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InterfaceSegregationPrinciple.GoodDesign.IMessage">
+    <Position X="5.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>GoodDesign.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InterfaceSegregationPrinciple.GoodDesign.ITextMessage">
+    <Position X="4.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>GoodDesign.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InterfaceSegregationPrinciple.GoodDesign.IVoiceMessage">
+    <Position X="6.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>GoodDesign.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
